@@ -6,7 +6,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing:inherit;
+  box-sizing: inherit;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -24,15 +24,11 @@ html {
 }
 
 .blue {
-  color: #1E488F;
+  color: #1e488f;
 }
 
 .bbg {
-  background-color: #1E488F;
-}
-
-.wblue {
-  color: #28352f;
+  background-color: #1e488f;
 }
 
 .wblueB {
@@ -40,7 +36,7 @@ html {
 }
 
 .blue-light {
-  color: #E2EDFF;
+  color: #e2edff;
 }
 
 .gray {
@@ -178,7 +174,7 @@ h4 {
   content: "";
   width: 48px;
   height: 4px;
-  background-color: #1E488F;
+  background-color: #1e488f;
   border-radius: 24px;
   position: absolute;
   bottom: -20px;
@@ -339,7 +335,7 @@ h4 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #1E488F;
+  color: #1e488f;
   border-radius: 10%;
   padding: 4% 3%;
   background-color: white;
