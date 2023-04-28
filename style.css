@@ -24,11 +24,11 @@ html {
 }
 
 .blue {
-  color: #1e488f;
+  color: #36B37E;
 }
 
 .bbg {
-  background-color: #1e488f;
+  background-color: #36B37E;
 }
 
 .wblueB {
@@ -174,7 +174,7 @@ h4 {
   content: "";
   width: 48px;
   height: 4px;
-  background-color: #1e488f;
+  background-color: #36B37E;
   border-radius: 24px;
   position: absolute;
   bottom: -20px;
@@ -335,7 +335,7 @@ h4 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #1e488f;
+  color: #36B37E;
   border-radius: 10%;
   padding: 4% 3%;
   background-color: white;
