@@ -183,7 +183,7 @@ h4 {
 }
 
 #labors-division {
-  display: grid;
+  display: float;
   grid-column: auto;
   justify-content: center;
 }
