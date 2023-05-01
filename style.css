@@ -1,4 +1,4 @@
-/* Style CSS */
+/* CSS basic Setup */
 html {
   box-sizing: border-box;
 }
@@ -10,20 +10,29 @@ html {
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
-/* Colors of Letters */
+/* Color palette */
 
-.Commmon {
+.Common {
   color: #172b4d;
-}
-
-.blue {
-  color: #1e488f;
 }
 
 .wblue {
-  color: #172b4d;
+  color: #344563;
+}
+
+.blue {
+  color: #36b37e;
+}
+
+.bbg {
+  background-color: #36b37e;
+}
+
+.wblueB {
+  color: #3a4a42;
 }
 
 .blue-light {
@@ -34,19 +43,23 @@ html {
   color: #ebf0ee;
 }
 
+.background-gray {
+  background-color: #ebf0ee;
+}
+
 .gray-text {
   color: #6b778c;
 }
 
-.white {
+.clear {
   color: #fff;
 }
 
-/* Body */
+/* Genral Classes */
 
-.border {
+.edge {
   border: 1px solid #d0d9d4;
-  border-radius: 4px;
+  border-radius: 3%;
 }
 
 body {
@@ -70,9 +83,9 @@ a:visited {
   cursor: pointer;
 }
 
-/* Wayfinder */
+/* Home Page */
 
-#wayfinder-section {
+#principal-divisor {
   background-image: url(./images/background-mob.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,16 +95,16 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding-top: 17%;
+  margin-top: 5%;
 }
 
-#wayfinder-section p {
+#principal-divisor p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
 
-#wayfinder-section ul {
+#principal-divisor ul {
   display: inline-flex;
   justify-content: space-around;
   width: 45%;
@@ -103,7 +116,27 @@ h1 {
   line-height: 52px;
 }
 
-#wayfinder-main {
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+#principal-topline {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -117,7 +150,7 @@ h1 {
   line-height: 28px;
 }
 
-#wayfinder-menu {
+#list {
   margin-top: 24px;
   margin-right: 32px;
   background-color: transparent;
@@ -132,7 +165,184 @@ h1 {
   margin: 5px;
 }
 
-#scrolldown {
+#scroll-plug {
   background-color: transparent;
   border: none;
+}
+
+.legend::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #36b37e;
+  border-radius: 24px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#labors-division {
+  display: grid;
+  grid-column: auto;
+  justify-content: center;
+}
+
+#deck {
+  margin: 50px 0 0 0;
+}
+
+.block-case {
+  margin: 20px 0 20px 0;
+  position: relative;
+}
+
+.block-input {
+  background-color: #fff;
+  border-radius: 5%;
+  width: 100%;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.local-ended {
+  position: absolute;
+  bottom: 0.1%;
+  padding: 6% 3%;
+}
+
+.syntax-list {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.syntax {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  border-radius: 8%;
+  padding: 2% 2%;
+}
+
+.block-response {
+  align-self: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.seepro {
+  padding: 7% 5%;
+  border-radius: 4px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.seepro:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.seepro:active {
+  background: #008552;
+  border-radius: 4px;
+}
+
+/* about myself */
+
+#concern-myself {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./images/AMS-Top.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.concern-topline {
+  margin-top: 10%;
+}
+
+.concern-artic {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 3%;
+}
+
+.pconcern {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.bg-concern {
+  background-image: url(./images/AMS.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#concern-deck-case {
+  padding-top: 15%;
+}
+
+.concern-block {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.rel {
+  position: relative;
+}
+
+.ams {
+  position: absolute;
+  top: 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.box-input {
+  padding-top: 6%;
+}
+
+.box-list {
+  padding-top: 5%;
+}
+
+.box-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  border-radius: 10%;
+  padding: 4% 3%;
+  background-color: white;
+}
+
+.syntax-list-two {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
 }
