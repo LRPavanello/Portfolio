@@ -89,6 +89,12 @@ To run this project, you will need a web browser, a text editor, and a local web
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Najibullah Jafari**
+
+- GitHub: [@luisrpavanelli](https://github.com/najibullahjafari)
+- Twitter: [@luisrpavanello](https://twitter.com/Najib_Jafari_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/najibulla-jafari-609852263/)
+
 👤 **Luis Renan Pavanello**
 
 - GitHub: [@luisrpavanelli](https://github.com/luisrpavanelli)
