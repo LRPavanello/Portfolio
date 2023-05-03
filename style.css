@@ -664,13 +664,22 @@ textarea {
     height: 100%;
   }
 
-  footer #conect-sm {
+  .footer {
+    text-align: center;
     display: flex;
     justify-content: center;
-    gap: 1%;
-    width: 100%;
-    padding: 1.5%;
-    border-top: 1px solid #d0d9d4;
-    margin: 0;
+    margin: 10%;
+  }
+  
+  .footer ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+
+  .smsymbols {
+    max-width: 35px;
+    max-height: 35px;
+    margin: 0 8px;
   }
 }
