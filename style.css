@@ -145,6 +145,15 @@ h4 {
   text-align: center;
 }
 
+h6 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #6b778c;
+  margin-top: 5%;
+}
+
 #principal-topline {
   display: flex;
   flex-wrap: wrap;
@@ -414,6 +423,12 @@ textarea {
   width: 90%;
 }
 
+.footer ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
 #formulary > ul {
   display: flex;
   flex-direction: column;
@@ -481,6 +496,19 @@ textarea {
 
 .desk-dp {
   display: none;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.smsymbols {
+  max-width: 35px;
+  max-height: 35px;
+  margin: 0 8px;
 }
 
 /* Desktop Version */
@@ -664,17 +692,25 @@ textarea {
     height: 100%;
   }
 
+  .addressemail {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 75%;
+    margin-top: 5%;
+  }
+
+  .addressemail ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+
   .footer {
     text-align: center;
     display: flex;
     justify-content: center;
     margin: 10%;
-  }
-
-  .footer ul {
-    padding: 0;
-    display: flex;
-    list-style: none;
   }
 
   .smsymbols {
