@@ -15,7 +15,7 @@ html {
 
 /* Color palette */
 
-.Neutrals {
+.Common {
   color: #172b4d;
 }
 
@@ -23,11 +23,11 @@ html {
   color: #344563;
 }
 
-.green {
+.blue {
   color: #36b37e;
 }
 
-.greenBG {
+.blueBG {
   background-color: #36b37e;
 }
 
@@ -35,7 +35,7 @@ html {
   color: #28352f;
 }
 
-.dgreenB {
+.cblueB {
   color: #3a4a42;
 }
 
@@ -47,7 +47,7 @@ html {
   color: #ebf0ee;
 }
 
-.grayBG {
+.Gbackground {
   background-color: #ebf0ee;
 }
 
@@ -55,13 +55,13 @@ html {
   color: #6b778c;
 }
 
-.white {
+.blank {
   color: #fff;
 }
 
 /* Genral Classes */
 
-.border {
+.edge {
   border: 1px solid #d0d9d4;
   border-radius: 3%;
 }
@@ -167,28 +167,28 @@ h4 {
   cursor: pointer;
 }
 
-.dis-dsk {
+.display-desktop {
   display: none;
 }
 
-.strip {
+.line {
   width: 20px;
   border-radius: 2px;
   border: 1.5px solid;
   margin: 5px;
 }
 
-#scroll-btn {
+#roll-button {
   background-color: transparent;
   border: none;
 }
 
-.title {
+.legend {
   width: 80%;
   justify-self: center;
 }
 
-.title::after {
+.legend::after {
   content: "";
   width: 48px;
   height: 4px;
@@ -200,25 +200,25 @@ h4 {
   transform: translateX(-50%);
 }
 
-#works-section {
+#labors-division {
   display: grid;
   grid-column: auto;
   justify-content: center;
 }
 
-#cards {
+#deck {
   display: grid;
   grid-column: auto;
   justify-content: center;
   margin: 50px 0 0 0;
 }
 
-.card-con {
+.box-case {
   margin: 20px 0 20px 0;
   position: relative;
 }
 
-.card-data {
+.box-information {
   background-color: #fff;
   border-radius: 5%;
   width: 100%;
@@ -228,20 +228,20 @@ h4 {
   justify-content: space-around;
 }
 
-.place-over {
+.local-end {
   position: absolute;
   width: 100%;
   bottom: 0.1%;
   padding: 6% 3%;
 }
 
-.language-list {
+.syntax-list {
   display: flex;
   justify-content: center;
   gap: 5%;
 }
 
-.language {
+.syntax {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -250,14 +250,14 @@ h4 {
   padding: 2% 2%;
 }
 
-.card-action {
+.box-response {
   align-self: center;
   width: 40%;
   display: flex;
   flex-direction: column;
 }
 
-.see-project {
+.sproject {
   padding: 7% 5%;
   border-radius: 4px;
   border: none;
@@ -269,30 +269,30 @@ h4 {
   letter-spacing: 0.03em;
 }
 
-.see-project:hover {
+.sproject:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
-.see-project:active {
+.sproject:active {
   background: #008552;
   border-radius: 4px;
 }
 
 /* about myself */
 
-#about-myself {
+#aboutme {
   background-image: url(./images/AMS-Top.svg);
   background-repeat: no-repeat;
   background-position: right top;
 }
 
-.about-header {
+.about-topline {
   margin-top: 10%;
 }
 
-.about-artic {
+.about-express {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -300,7 +300,7 @@ h4 {
   padding-bottom: 3%;
 }
 
-.pAbout {
+.pAboutme {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -310,27 +310,27 @@ h4 {
   padding-bottom: 10%;
 }
 
-.bg-about {
+.background-about {
   background-image: url(./images/AMS.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
 
-#about-cards-con {
+#about-deck-case {
   padding-top: 15%;
 }
 
-.about-card {
+.about-box {
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
-.rel {
+.kin {
   position: relative;
 }
 
-.abs {
+.ams {
   position: absolute;
   top: 5%;
   height: 100%;
@@ -339,15 +339,15 @@ h4 {
   padding-top: 5%;
 }
 
-.cat-data {
+.category-data {
   padding-top: 6%;
 }
 
-.cat-list {
+.category-list {
   padding-top: 5%;
 }
 
-.cat-item {
+.category-item {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -358,27 +358,27 @@ h4 {
   background-color: white;
 }
 
-.language-list-two {
+.syntax-list-two {
   display: flex;
   justify-content: center;
   gap: 5%;
 }
 
-.flex {
+.adapt {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Form */
+/* formulary */
 
-.flex-drow {
+.adapt-row {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#form-text {
+#formulary-text {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -396,7 +396,7 @@ textarea {
   border-radius: 4px;
 }
 
-#form-bimg {
+#formulary-bimg {
   position: absolute;
   background-image: url(./images/network-backimage.svg);
   background-repeat: no-repeat;
@@ -405,28 +405,28 @@ textarea {
   height: 100%;
 }
 
-#form,
-#form-text {
+#formulary,
+#formulary-text {
   margin-top: 10%;
 }
 
-#form {
+#formulary {
   width: 90%;
 }
 
-#form > ul {
+#formulary > ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
 
-#form > ul li,
+#formulary > ul li,
 textarea {
   width: 100%;
 }
 
-#form input {
+#formulary input {
   width: 100%;
   height: 48px;
   padding: 16px;
@@ -437,31 +437,31 @@ textarea {
   border: 1px solid #d0d9d4;
 }
 
-#btn-container {
+#button-case {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-#btn-container .see-project {
+#button-case .sproject {
   color: #fff;
   background-color: #36b37f;
   cursor: pointer;
   padding: 3% 2%;
 }
 
-#btn-container .see-project:hover {
+#button-case .sproject:hover {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
-#btn-container .see-project:active {
+#button-case .sproject:active {
   background: #008552;
   border-radius: 4px;
 }
 
-#contact-social {
+#conect-sm {
   display: flex;
   flex-direction: row;
   width: 50%;
@@ -470,7 +470,7 @@ textarea {
   margin-bottom: 17px;
 }
 
-#form-section h4 {
+#formulary-division h4 {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -479,7 +479,7 @@ textarea {
   margin-bottom: 300px;
 }
 
-.d-desk {
+.desk-dp {
   display: none;
 }
 
@@ -504,7 +504,7 @@ textarea {
     margin-bottom: 12%;
   }
 
-  .dis-dsk {
+  .display-desktop {
     display: inline;
   }
 
@@ -525,17 +525,17 @@ textarea {
     width: 18%;
   }
 
-  .srlbtn {
+  .more-button {
     margin-top: 4%;
   }
 
   /* Works Section */
 
-  #works-section {
+  #labors-division {
     margin-top: 8%;
   }
 
-  .title::after {
+  .legend::after {
     width: 0;
     height: 0;
     background-color: none;
@@ -543,11 +543,11 @@ textarea {
     position: relative;
   }
 
-  .title {
+  .legend {
     width: 100%;
   }
 
-  #cards {
+  #deck {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2%;
@@ -557,23 +557,23 @@ textarea {
 
   /* about myself */
 
-  #about-myself {
+  #aboutme {
     background-image: url(./images/desktop-fm.svg);
     margin-top: 5%;
   }
 
-  .pAbout {
+  .pAboutme {
     align-self: center;
     padding-top: 2%;
     padding-bottom: 2%;
     width: 56.5%;
   }
 
-  #about-myself .card-action {
+  #aboutme .box-response {
     width: 12%;
   }
 
-  .bg-about {
+  .background-about {
     background-image: url(./images/aboutme-desk.svg);
     background-repeat: no-repeat;
     background-size: unset;
@@ -581,7 +581,7 @@ textarea {
     width: 100%;
   }
 
-  #about-cards-con {
+  #about-deck-case {
     padding-top: 2%;
     display: flex;
     flex-direction: row;
@@ -590,25 +590,25 @@ textarea {
     width: 80%;
   }
 
-  .abs {
+  .ams {
     left: 6%;
   }
 
-  .d-desk {
+  .desk-dp {
     display: block;
   }
 
-  .d-mob {
+  .dmob {
     display: none;
   }
 
   /* Contact me section */
 
-  #form-section {
+  #formulary-division {
     height: 78vh;
   }
 
-  #form-text {
+  #formulary-text {
     font-weight: 700;
     font-size: 30px;
     line-height: 52px;
@@ -618,26 +618,26 @@ textarea {
     margin-top: 14%;
   }
 
-  .flex-drow {
+  .adapt-row {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     gap: 1%;
   }
 
-  #contact-social {
+  #conect-sm {
     display: none;
   }
 
-  #form {
+  #formulary {
     width: 47%;
   }
 
-  #btn-container {
+  #button-case {
     justify-content: flex-start;
   }
 
-  #form-l-bg {
+  #formulary-l-bg {
     position: absolute;
     background-image: url(./images/concern-1.svg);
     background-repeat: no-repeat;
@@ -646,7 +646,7 @@ textarea {
     height: 100%;
   }
 
-  #form-m-bg {
+  #formulary-m-bg {
     position: absolute;
     background-image: url(./images/concern-2.svg);
     background-repeat: no-repeat;
@@ -655,7 +655,7 @@ textarea {
     height: 100%;
   }
 
-  #form-bimg {
+  #formulary-bimg {
     position: absolute;
     background-image: url(./images/concern-3.svg);
     background-repeat: no-repeat;
@@ -664,7 +664,7 @@ textarea {
     height: 100%;
   }
 
-  footer #contact-social {
+  footer #conect-sm {
     display: flex;
     justify-content: center;
     gap: 1%;
