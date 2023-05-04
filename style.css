@@ -711,7 +711,9 @@ textarea {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 2%;
+    margin: 5%;
+    padding-top: 0.5rem;
+    border-top: thin solid #DFE1E6;
   }
 
   .smsymbols {
