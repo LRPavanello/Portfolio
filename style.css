@@ -112,7 +112,7 @@ a:visited {
   line-height: 28px;
   width: 87%;
   animation-duration: 3s;
-  animation-name: slidein
+  animation-name: slidein;
 }
 
 .navway-row {
@@ -598,7 +598,7 @@ textarea {
   }
 
   .navway-row a {
-    color:#344563;
+    color: #344563;
     text-decoration: none;
   }
 
