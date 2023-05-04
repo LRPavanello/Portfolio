@@ -503,6 +503,7 @@ textarea {
   display: flex;
   justify-content: center;
   margin: 5%;
+  padding-block: inherit;
 }
 
 .smsymbols {
@@ -710,7 +711,7 @@ textarea {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 10%;
+    margin: 2%;
   }
 
   .smsymbols {
