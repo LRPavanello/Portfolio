@@ -138,17 +138,16 @@ After completing your setup, it's time to make your website available online! I 
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Najibullah Jafari**
-
-- GitHub: [@luisrpavanelli](https://github.com/najibullahjafari)
-- Twitter: [@luisrpavanello](https://twitter.com/Najib_Jafari_)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/najibulla-jafari-609852263/)
-
 👤 **Luis Renan Pavanello**
 
 - GitHub: [@luisrpavanelli](https://github.com/luisrpavanelli)
 - Twitter: [@luisrpavanello](https://twitter.com/luisrpavanello)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/luisrpavanello)
+
+👤 **Najibullah Jafari**
+- GitHub: [@luisrpavanelli](https://github.com/najibullahjafari)
+- Twitter: [@luisrpavanello](https://twitter.com/Najib_Jafari_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/najibulla-jafari-609852263/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
