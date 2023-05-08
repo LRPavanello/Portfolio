@@ -69,7 +69,7 @@ My portfolio project serves as a comprehensive demonstration of my aptitude and 
 
 ## 🚀 Preview Link <a name="preview-link"></a>
 
-- [Preview Link](http://htmlpreview.github.io/?https://github.com/luisrpavanelli/Portfolio/blob/worksandaboutmyself-branch/index.html)
+- [Preview Link](https://luisrpavanelli.github.io/luisrpavanelli-Portfolio.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
