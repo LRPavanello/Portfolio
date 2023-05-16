@@ -180,7 +180,7 @@ nav {
 }
 
 #Spotlight {
-  color: #36B37E;
+  color: #36b37e;
 }
 
 .smsymbols {
@@ -308,7 +308,7 @@ nav {
 }
 
 .pattern-lines button {
-  background-color: #36B37E;
+  background-color: #36b37e;
   color: white;
   font-size: 1.7rem;
   width: 140px;
@@ -390,12 +390,12 @@ nav {
   padding: 12px;
   border-radius: 4px;
   border: none;
-  background-color: #36B37E;
+  background-color: #36b37e;
   transition: 0.5s;
 }
 
 .button:hover {
-  box-shadow: 4px 5px 1px rgb(0, 133, 82); 
+  box-shadow: 4px 5px 1px rgb(0, 133, 82);
   transform: scale(1.1, 1.1);
 }
 
@@ -430,7 +430,7 @@ nav {
 }
 
 .storydeckholder .badge {
-  color: #36B37E;
+  color: #36b37e;
 }
 
 .storydeckholder img {
@@ -438,7 +438,7 @@ nav {
 }
 
 hr.arcseparator {
-  border-top: 4px solid #36B37E;
+  border-top: 4px solid #36b37e;
   border-radius: 5px;
   width: 50px;
   margin: 24px auto;
@@ -543,7 +543,7 @@ input,
   }
 
   .explorer a {
-    color: #36B37E;
+    color: #36b37e;
     text-decoration: none;
     position: relative;
   }
@@ -667,7 +667,7 @@ input,
 
   .pattern-lines button {
     cursor: pointer;
-    background-color: #36B37E;
+    background-color: #36b37e;
     color: white;
     font-size: 1.7rem;
     width: 150px;
