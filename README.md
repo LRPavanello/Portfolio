@@ -144,6 +144,12 @@ After completing your setup, it's time to make your website available online! I 
 - Twitter: [@luisrpavanello](https://twitter.com/luisrpavanello)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/luisrpavanello)
 
+👤 **Agyare Kissi Kenneth**
+
+- GitHub: [@githubhandle](https://github.com/over-geek)
+- Twitter: [@twitterhandle](https://twitter.com/KissiKenneth)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kenneth-agyare-kissi-673a01186/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
