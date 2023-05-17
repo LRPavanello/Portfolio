@@ -81,7 +81,7 @@ const projectsList = [
     reference: '#',
   },
 ];
-// #Pattern of Cards
+// #Details Pop-Up Window
 const patternPopUp = document.getElementsByClassName('patternholder')[0];
 const coverupBg = document.getElementById('coverup');
 const shareP = document.getElementById('see-live');
