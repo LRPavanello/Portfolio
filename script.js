@@ -21,7 +21,7 @@ closeMobileButton.addEventListener('click', () => {
 
 for (let i = 0; i < explorer.length; i += 1) {
   explorer[i].addEventListener('click', () => {
-    if (window.innerWidth <= 768) { // Adjust the width value according to your responsive design breakpoints
+    if (window.innerWidth <= 768) { // Adjust the width value according to your responsive design
       wayFinderlines.classList.toggle('active');
       shadowedsurface.classList.toggle('active');
       buttonswitch.classList.toggle('active');
