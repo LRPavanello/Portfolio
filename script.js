@@ -147,17 +147,3 @@ messageform.addEventListener('submit', (e) => {
   e.preventDefault();
   validateInputs();
 });
-const inputFeedback = document.getElementById('feedback');
-// Get references to the input fields LocalStorage
-const inputFirstname = document.getElementById('firstname');
-const inputLastname = document.getElementById('lastname');
-const inputAddress = document.getElementById('address');
-// Load any saved data from local storage
-const savedInput = JSON.parse(localStorage.getItem('formInput'));
-// If there is saved data, pre-fill the input fields
-if (savedInput) {
-  inputFirstname.value = savedInput.firstname;
-  inputLastname.value = savedInput.lastname;
-  inputAddress.value = savedInput.address;
-  inputFeedback.value = savedInput.feedback;
-}
