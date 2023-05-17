@@ -121,3 +121,43 @@ function Camouflagepattern() { // eslint-disable-line no-unused-vars
   coverupBg.classList.toggle('active');
   window.scrollTo(0, currentScrollPosition);
 }
+// #Validate Contact Formulary
+const messageform = document.getElementsByClassName('message_form')[0];
+const addressEmail = document.getElementById('address');
+const setError = (message) => {
+  const failholder = messageform.querySelector('.fail');
+  failholder.innerHTML = message;
+  failholder.classList.add('fail');
+};
+const validateInputs = () => {
+  const sendingEmail = addressEmail.value;
+  if (!(sendingEmail === sendingEmail.toLowerCase())) {
+    setError('Please ensure that your email address is in all lowercase letters.');
+    addressEmail.classList.toggle('activefail');
+  } else if (sendingEmail === '') {
+    setError('Please enter your email address, the field cannot be left blank.');
+    addressEmail.classList.toggle('activefail');
+  } else {
+    setError('');
+    addressEmail.classList.toggle('activefail');
+    messageform.submit();
+  }
+};
+messageform.addEventListener('submit', (e) => {
+  e.preventDefault();
+  validateInputs();
+});
+const inputFeedback = document.getElementById('feedback');
+// Get references to the input fields LocalStorage
+const inputFirstname = document.getElementById('firstname');
+const inputLastname = document.getElementById('lastname');
+const inputAddress = document.getElementById('address');
+// Load any saved data from local storage
+const savedInput = JSON.parse(localStorage.getItem('formInput'));
+// If there is saved data, pre-fill the input fields
+if (savedInput) {
+  inputFirstname.value = savedInput.firstname;
+  inputLastname.value = savedInput.lastname;
+  inputAddress.value = savedInput.address;
+  inputFeedback.value = savedInput.feedback;
+}
