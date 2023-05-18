@@ -27,11 +27,10 @@ for (let i = 0; i < explorer.length; i += 1) {
 // My Latest Projects
 const descriptionComplete = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.";
 const partes = descriptionComplete.match(/.{1,100}/g);
-const description = partes.join('');
 const projectsList = [
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: description,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -40,7 +39,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: description,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -49,7 +48,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: description,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -58,7 +57,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: description,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -67,7 +66,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: description,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -76,7 +75,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: description,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -84,7 +83,7 @@ const projectsList = [
     reference: 'https://www.github.com/',
   },
 ];
-console.log(description);
+console.log(partes);
 // #Details Pop-Up Window
 const patternPopUp = document.getElementsByClassName('patternholder')[0];
 const coverupBg = document.getElementById('coverup');
@@ -120,7 +119,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
   });
   projectsholder.appendChild(projectid);
 }
-function Camouflagepattern() {
+function Camouflagepattern() { // eslint-disable-line no-unused-vars
   patternPopUp.classList.toggle('active');
   coverupBg.classList.toggle('active');
   window.scrollTo(0, currentScrollPosition);
