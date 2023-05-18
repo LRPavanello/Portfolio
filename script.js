@@ -147,3 +147,4 @@ messageform.addEventListener('submit', (e) => {
   e.preventDefault();
   validateInputs();
 });
+const inputFeedback = document.getElementById('feedback');

@@ -5,24 +5,55 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
 }
 
 h1,
 h2 {
   font-size: 4rem;
   font-weight: 700;
-  color: #008552;
 }
 
 h3 {
   font-size: 2em;
   font-weight: 600;
+  color: #3a4a42;
+}
+
+.item1 {
+  color: #36b37e;
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+}
+
+.item2 {
+  color: #36b37e;
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+}
+
+.item3 {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+}
+
+.ag-theme-2-body-regular-1 {
+  font-family: "Ag Theme 2", Arial, sans-serif;
+  font-weight: 400;
 }
 
 p {
   font-size: 20px;
   line-height: 28px;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
 }
 
 .wayfinder {
@@ -87,10 +118,11 @@ p {
 .identifying {
   font-size: 30px;
   font-weight: 600;
-  color: #28352f;
+  color: #3a4a42;
   text-decoration: none;
   text-align: center;
   margin-left: 35%;
+  font-family: 'Inter', sans-serif;
 }
 
 #navigationoption {
@@ -202,7 +234,6 @@ nav {
 .badges {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .badge {
@@ -252,12 +283,12 @@ nav {
 .patternholder.active {
   position: absolute;
   top: 55%;
-  left: 50%;
+  left: 52.5%;
   transform: translate(-50%, -50%) scale(1);
   background-color: white;
-  width: 90%;
-  height: 115vh;
-  padding: 1.5rem;
+  width: 92%;
+  height: 144.88vh;
+  padding: 2rem;
   z-index: 15;
   display: flex;
   flex-direction: column;
@@ -550,7 +581,7 @@ input.activefail {
   .explorer li::after {
     content: "";
     position: absolute;
-    background-color: #008552;
+    background-color: #172b4d;
     height: 3px;
     width: 0%;
     left: 3rem;
@@ -564,7 +595,7 @@ input.activefail {
   }
 
   .explorer a {
-    color: #36b37e;
+    color: #172b4d;
     text-decoration: none;
     position: relative;
   }
@@ -700,7 +731,7 @@ input.activefail {
 
   .pattern-title h3 {
     font-size: 3.2rem;
-    color: #008552;
+    color: #172b4d;
     width: 75%;
     margin: 1rem 0;
   }
@@ -713,9 +744,9 @@ input.activefail {
   }
 
   .pattern-icons {
-    margin: 0 1rem;
+    margin: 0.2rem;
     align-items: center;
-    width: 1.5rem;
+    width: 1rem;
   }
 
   #coverup {
@@ -804,7 +835,7 @@ input.activefail {
   #messagetext {
     font-size: 2.5rem;
     text-align: justify;
-    color: #008552;
+    color: #172b4d;
   }
 
   #textform2 {
@@ -844,70 +875,5 @@ input.activefail {
   .heading {
     background: none;
     margin: 0 auto 40rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .heading {
-    background: none;
-    margin: 0 auto 30rem;
-  }
-}
-
-@media (min-width: 1000px) {
-  .heading {
-    background: none;
-    margin: 0 auto 30rem;
-  }
-}
-
-@media (min-width: 1300px) {
-  .heading {
-    background: none;
-    margin: 0 auto 40rem;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .name-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #firstname,
-  #lastname {
-    width: 42%;
-    padding: 15px 16px;
-    border: 1px solid #d0d9d4;
-    margin: 20px auto;
-    border-radius: 4px;
-  }
-
-  #lastname {
-    width: 42%;
-    padding: 15px 16px;
-    border: 1px solid #d0d9d4;
-    margin: 20px auto;
-    border-radius: 4px;
-  }
-
-  #fullname {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 599px) {
-  .name-container {
-    display: block; /* ou inline-block */
-  }
-
-  #fullname {
-    display: inherit;
-  }
-
-  #firstname,
-  #lastname {
-    display: none;
   }
 }
