@@ -120,7 +120,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
   });
   projectsholder.appendChild(projectid);
 }
-function Camouflagepattern() { // eslint-disable-line no-unused-vars
+function Camouflagepattern() {
   patternPopUp.classList.toggle('active');
   coverupBg.classList.toggle('active');
   window.scrollTo(0, currentScrollPosition);
