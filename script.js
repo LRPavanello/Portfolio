@@ -79,7 +79,7 @@ const projectsList = [
     DeskImage: 'psnap.jpg',
     sharepoint: 'https://www.google.com/',
     reference: 'https://www.github.com/',
-  }
+  },
 ];
 // #Details Pop-Up Window
 const patternPopUp = document.getElementsByClassName('patternholder')[0];
