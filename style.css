@@ -17,33 +17,31 @@ h2 {
 h3 {
   font-size: 2em;
   font-weight: 600;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 .item1 {
-  line-height: 28px;
-  color:#36B37E;
+  color: #36b37e;
   font-family: 'Inter', sans-serif;
   font-size: 4rem;
   font-weight: 700;
-  line-height: 1.5; /* Espaço de 1.5 vezes a altura da fonte */
+  line-height: 4.5rem; /* Espaço de 1.5 vezes a altura da fonte */
 }
+
 .item2 {
-  line-height: 28px;
-  color:#36B37E;
+  color: #36b37e;
   font-family: 'Inter', sans-serif;
   font-size: 4rem;
   font-weight: 700;
-  line-height: 1.5; /* Espaço de 1.5 vezes a altura da fonte */
+  line-height: 4.5rem; /* Espaço de 1.5 vezes a altura da fonte */
 }
 
 .item3 {
-  line-height: 28px;
-  color:#172B4D;
+  color: #172b4d;
   font-family: 'Inter', sans-serif;
   font-size: 4rem;
   font-weight: 700;
-  line-height: 1.5; /* Espaço de 1.5 vezes a altura da fonte */
+  line-height: 4.5rem; /* Espaço de 1.5 vezes a altura da fonte */
 }
 
 .ag-theme-2-body-regular-1 {
@@ -54,7 +52,7 @@ h3 {
 p {
   font-size: 20px;
   line-height: 28px;
-  color:#172B4D;
+  color: #172b4d;
   font-family: 'Inter', sans-serif;
 }
 
@@ -120,7 +118,7 @@ p {
 .identifying {
   font-size: 30px;
   font-weight: 600;
-  color: #3A4A42;
+  color: #3a4a42;
   text-decoration: none;
   text-align: center;
   margin-left: 35%;
@@ -353,7 +351,7 @@ nav {
 
 .pattern-title h3 {
   font-size: 3.2rem;
-  color: #172B4D;
+  color: #172b4d;
   width: 80%;
   margin: 1rem 0;
 }
@@ -364,7 +362,6 @@ nav {
   font-weight: 400;
   line-height: 30px;
   color: #344563;
-
 }
 
 #coverup {
@@ -564,7 +561,7 @@ input,
   .explorer li::after {
     content: "";
     position: absolute;
-    background-color: #172B4D;
+    background-color: #172b4d;
     height: 3px;
     width: 0%;
     left: 3rem;
@@ -578,7 +575,7 @@ input,
   }
 
   .explorer a {
-    color: #172B4D;
+    color: #172b4d;
     text-decoration: none;
     position: relative;
   }
@@ -714,7 +711,7 @@ input,
 
   .pattern-title h3 {
     font-size: 3.2rem;
-    color: #172B4D;
+    color: #172b4d;
     width: 75%;
     margin: 1rem 0;
   }
@@ -818,7 +815,7 @@ input,
   #messagetext {
     font-size: 2.5rem;
     text-align: justify;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   #textform2 {

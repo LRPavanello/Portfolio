@@ -25,11 +25,9 @@ for (let i = 0; i < explorer.length; i += 1) {
   });
 }
 // My Latest Projects
-var descricaoCompleta = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.";
-var partes = descricaoCompleta.match(/.{1,100}/g); // Divide a descrição em partes de 100 caracteres
-var descricao = partes.join(""); // Une as partes novamente em uma única string
-console.log(descricao); // Imprime a descrição completa
-
+const descricaoCompleta = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.";
+const partes = descricaoCompleta.match(/.{1,100}/g); // Divide a descrição em partes de 100 caracteres
+const descricao = partes.join(''); // Une as partes novamente em uma única string
 const projectsList = [
   {
     name: 'Multi-Post Stories Gain+Glory',
@@ -86,6 +84,7 @@ const projectsList = [
     reference: 'https://www.github.com/',
   },
 ];
+console.log(descricao); // Imprime a descrição completa
 // #Details Pop-Up Window
 const patternPopUp = document.getElementsByClassName('patternholder')[0];
 const coverupBg = document.getElementById('coverup');
