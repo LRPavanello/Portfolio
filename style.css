@@ -5,24 +5,57 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
 }
 
 h1,
 h2 {
   font-size: 4rem;
   font-weight: 700;
-  color: #008552;
 }
 
 h3 {
   font-size: 2em;
   font-weight: 600;
+  color: #3A4A42;
+}
+
+.item1 {
+  line-height: 28px;
+  color:#36B37E;
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5; /* Espaço de 1.5 vezes a altura da fonte */
+}
+.item2 {
+  line-height: 28px;
+  color:#36B37E;
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5; /* Espaço de 1.5 vezes a altura da fonte */
+}
+
+.item3 {
+  line-height: 28px;
+  color:#172B4D;
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5; /* Espaço de 1.5 vezes a altura da fonte */
+}
+
+.ag-theme-2-body-regular-1 {
+  font-family: "Ag Theme 2", Arial, sans-serif;
+  font-weight: 400;
 }
 
 p {
   font-size: 20px;
   line-height: 28px;
+  color:#172B4D;
+  font-family: 'Inter', sans-serif;
 }
 
 .wayfinder {
@@ -87,10 +120,11 @@ p {
 .identifying {
   font-size: 30px;
   font-weight: 600;
-  color: #28352f;
+  color: #3A4A42;
   text-decoration: none;
   text-align: center;
   margin-left: 35%;
+  font-family: 'Inter', sans-serif;
 }
 
 #navigationoption {
@@ -202,7 +236,6 @@ nav {
 .badges {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .badge {
@@ -252,12 +285,12 @@ nav {
 .patternholder.active {
   position: absolute;
   top: 55%;
-  left: 50%;
+  left: 52.5%;
   transform: translate(-50%, -50%) scale(1);
   background-color: white;
-  width: 90%;
-  height: 115vh;
-  padding: 1.5rem;
+  width: 92%;
+  height: 144.88vh;
+  padding: 2rem;
   z-index: 15;
   display: flex;
   flex-direction: column;
@@ -320,7 +353,7 @@ nav {
 
 .pattern-title h3 {
   font-size: 3.2rem;
-  color: #008552;
+  color: #172B4D;
   width: 80%;
   margin: 1rem 0;
 }
@@ -330,6 +363,8 @@ nav {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 30px;
+  color: #344563;
+
 }
 
 #coverup {
@@ -529,7 +564,7 @@ input,
   .explorer li::after {
     content: "";
     position: absolute;
-    background-color: #008552;
+    background-color: #172B4D;
     height: 3px;
     width: 0%;
     left: 3rem;
@@ -543,7 +578,7 @@ input,
   }
 
   .explorer a {
-    color: #36b37e;
+    color: #172B4D;
     text-decoration: none;
     position: relative;
   }
@@ -679,7 +714,7 @@ input,
 
   .pattern-title h3 {
     font-size: 3.2rem;
-    color: #008552;
+    color: #172B4D;
     width: 75%;
     margin: 1rem 0;
   }
@@ -692,9 +727,9 @@ input,
   }
 
   .pattern-icons {
-    margin: 0 1rem;
+    margin: 0.2rem;
     align-items: center;
-    width: 1.5rem;
+    width: 1rem;
   }
 
   #coverup {
@@ -783,7 +818,7 @@ input,
   #messagetext {
     font-size: 2.5rem;
     text-align: justify;
-    color: #008552;
+    color: #172B4D;
   }
 
   #textform2 {
