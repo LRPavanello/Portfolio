@@ -27,8 +27,8 @@ for (let i = 0; i < explorer.length; i += 1) {
 // My Latest Projects
 const projectsList = [
   {
-    name: 'Project 1',
-    description: 'Briefly introduce your project and its key features.',
+    name: 'Keeping track of hundreds of components',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['software one', 'software two', 'software three', 'software four'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -36,8 +36,8 @@ const projectsList = [
     reference: 'https://www.github.com/',
   },
   {
-    name: 'Project 2',
-    description: 'Briefly introduce your project and its key features.',
+    name: 'Keeping track of hundreds of components',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['software one', 'software two', 'software three', 'software four'],
     MobImage: 'idplaceholder.png',
     DeskImage: 'idplaceholder.png',
@@ -45,8 +45,8 @@ const projectsList = [
     reference: '#',
   },
   {
-    name: 'Project 3',
-    description: 'Briefly introduce your project and its key features.',
+    name: 'Keeping track of hundreds of components',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['software one', 'software two', 'software three', 'software four'],
     MobImage: 'idplaceholder.png',
     DeskImage: 'idplaceholder.png',
@@ -54,8 +54,8 @@ const projectsList = [
     reference: '#',
   },
   {
-    name: 'Project 4',
-    description: 'Briefly introduce your project and its key features.',
+    name: 'Keeping track of hundreds of components',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['software one', 'software two', 'software three', 'software four'],
     MobImage: 'idplaceholder.png',
     DeskImage: 'idplaceholder.png',
@@ -63,8 +63,8 @@ const projectsList = [
     reference: '#',
   },
   {
-    name: 'Project 5',
-    description: 'Briefly introduce your project and its key features.',
+    name: 'Keeping track of hundreds of components',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['software one', 'software two', 'software three', 'software four'],
     MobImage: 'idplaceholder.png',
     DeskImage: 'idplaceholder.png',
@@ -72,8 +72,8 @@ const projectsList = [
     reference: '#',
   },
   {
-    name: 'Project 6',
-    description: 'Briefly introduce your project and its key features.',
+    name: 'Keeping track of hundreds of components',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     technologies: ['software one', 'software two', 'software three', 'software four'],
     MobImage: 'idplaceholder.png',
     DeskImage: 'idplaceholder.png',

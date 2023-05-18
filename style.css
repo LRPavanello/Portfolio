@@ -320,7 +320,7 @@ nav {
 
 .pattern-title h3 {
   font-size: 3.2rem;
-  color: #008552;
+  color: #172B4D;
   width: 80%;
   margin: 1rem 0;
 }
@@ -330,6 +330,8 @@ nav {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 30px;
+  color:#344563;
+
 }
 
 #coverup {
