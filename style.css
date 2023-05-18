@@ -846,6 +846,7 @@ input.activefail {
     margin: 0 auto 40rem;
   }
 }
+
 @media (min-width: 768px) {
   .heading {
     background: none;
@@ -873,13 +874,8 @@ input.activefail {
     justify-content: center;
     align-items: center;
   }
-  #firstname, #lastname {
-    width: 42%;
-    padding: 15px 16px;
-    border: 1px solid #d0d9d4;
-    margin: 20px auto;
-    border-radius: 4px;
-  }
+
+  #firstname,
   #lastname {
     width: 42%;
     padding: 15px 16px;
@@ -887,6 +883,15 @@ input.activefail {
     margin: 20px auto;
     border-radius: 4px;
   }
+
+  #lastname {
+    width: 42%;
+    padding: 15px 16px;
+    border: 1px solid #d0d9d4;
+    margin: 20px auto;
+    border-radius: 4px;
+  }
+
   #fullname {
     display: none;
   }
@@ -896,11 +901,13 @@ input.activefail {
   .name-container {
     display: block; /* ou inline-block */
   }
+
   #fullname {
-    display:inherit;
+    display: inherit;
   }
 
-  #firstname, #lastname {
+  #firstname,
+  #lastname {
     display: none;
   }
 }
