@@ -124,3 +124,29 @@ function Camouflagepattern() { // eslint-disable-line no-unused-vars
   coverupBg.classList.toggle('active');
   window.scrollTo(0, currentScrollPosition);
 }
+// #Validate Contact Formulary
+const messageform = document.getElementsByClassName('message_form')[0];
+const addressEmail = document.getElementById('address');
+const setError = (message) => {
+  const failholder = messageform.querySelector('.fail');
+  failholder.innerHTML = message;
+  failholder.classList.add('fail');
+};
+const validateInputs = () => {
+  const sendingEmail = addressEmail.value;
+  if (!(sendingEmail === sendingEmail.toLowerCase())) {
+    setError('Please ensure that your email address is in all lowercase letters.');
+    addressEmail.classList.toggle('activefail');
+  } else if (sendingEmail === '') {
+    setError('Please enter your email address, the field cannot be left blank.');
+    addressEmail.classList.toggle('activefail');
+  } else {
+    setError('');
+    addressEmail.classList.toggle('activefail');
+    messageform.submit();
+  }
+};
+messageform.addEventListener('submit', (e) => {
+  e.preventDefault();
+  validateInputs();
+});
