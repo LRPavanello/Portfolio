@@ -26,11 +26,11 @@ for (let i = 0; i < explorer.length; i += 1) {
 }
 // My Latest Projects
 const descriptionComplete = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.";
-const parte = descriptionComplete.match(/.{1,100}/g);
+const partes = descriptionComplete.match(/.{1,100}/g);
 const projectsList = [
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: parte,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -39,7 +39,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: parte,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -48,7 +48,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: parte,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -57,7 +57,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: parte,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -66,7 +66,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: parte,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
@@ -75,7 +75,7 @@ const projectsList = [
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
-    description: parte,
+    description: partes,
     technologies: ['Ruby on Rails', 'CSS', 'Java Script', 'HTML'],
     MobImage: 'mobpattern.jpg',
     DeskImage: 'psnap.jpg',
