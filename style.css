@@ -526,7 +526,7 @@ input.activefail {
   display: flex;
   align-items: center;
   text-align: left;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .message .button {
