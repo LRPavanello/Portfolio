@@ -147,3 +147,19 @@ messageform.addEventListener('submit', (e) => {
   e.preventDefault();
   validateInputs();
 });
+
+// Function to save form data to local storage
+function saveformInput() {
+  const formInput = {
+    firstname: inputFirstname.value,
+    lastname: inputLastname.value,
+    address: inputAddress.value,
+    feedback: inputFeedback.value,
+  };
+  localStorage.setItem('formInput', JSON.stringify(formInput));
+}
+// Add event listeners to the input fields to save changes to local storage
+inputFirstname.addEventListener('input', saveformInput);
+inputLastname.addEventListener('input', saveformInput);
+inputAddress.addEventListener('input', saveformInput);
+inputFeedback.addEventListener('input', saveformInput);
